@@ -81,7 +81,7 @@ screen_height = 500
 screen = pygame.display.set_mode((screen_width, screen_height))
 clock = pygame.time.Clock()
 
-particle_size = 50
+particle_size = 10
 default_random_speed_cap = 3
 
 particles = pygame.sprite.Group()
